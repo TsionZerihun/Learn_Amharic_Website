@@ -1,0 +1,53 @@
+{% extends 'frontend/layout.html' %}
+{% block content %}
+
+     <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">		
+			<!--I-->
+                <div class="col-1">
+                  
+                </div>
+
+                <div class="col-9">
+                  <div class="card" >
+                    <img class="card-img-top" src={{day.image.url}} alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                          {{day.name}}
+                      </h5>
+                      <p class="card-text"><pre>{{ day.description }}</pre></p>
+                      <a href="/day/mon" class="btn btn-primary">Mon</a>
+                      <a href="tue" class="btn btn-primary">Tue</a>
+                      <a href="wed" class="btn  btn-primary">Wed</a>
+                      <a href="thu" class="btn btn-primary">Thu</a>
+                      <a href="fri" class="btn btn-primary">Fri</a>
+                      <a href="sat" class="btn btn-primary">Sat</a>
+                      <a href="sun" class="btn btn-primary">Sun</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-1">
+                </div>
+	
+
+            </div>
+
+            <div class="row text-center g-4">		
+                <div class="col-3">
+                </div>
+                <div class="col-6">
+                  <a href="../" class="btn  btn-warning">Finish</a>  
+
+                </div>
+                <div class="col-3">
+                </div>
+        </div>
+     </section>
+     <script>
+            
+            
+     </script>
+ {% endblock %}
+ 

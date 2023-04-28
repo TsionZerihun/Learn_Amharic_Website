@@ -1,0 +1,52 @@
+{% extends 'frontend/layout.html' %}
+{% block content %}
+
+     <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">		
+			<!--I-->
+                <div class="col-1">
+                  
+                </div>
+
+                <div class="col-9">
+                  <div class="card" >
+                    <img class="card-img-top" src={{intro.image.url}} alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                          {{intro.name}}
+                      </h5>
+                      <p class="card-text"><pre>{{ intro.description }}</pre></p>
+                      <a href="/intro/myself" class="btn btn-primary">Myself</a>
+                      <a href="Iam" class="btn btn-primary">I am Called</a>
+                      <a href="others" class="btn btn-primary">Introduction</a>
+                      <a href="mymother" class="btn  btn-primary">She is called</a>
+                      <a href="myfather" class="btn btn-primary">He is called</a>
+                      <a href="wearecalled" class="btn btn-primary">We are Called</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-1">
+                </div>
+	
+
+            </div>
+
+            <div class="row text-center g-4">		
+                <div class="col-3">
+                </div>
+                <div class="col-6">
+                  <a href="../" class="btn  btn-warning">Finish</a>  
+
+                </div>
+                <div class="col-3">
+                </div>
+        </div>
+     </section>
+     <script>
+            
+            
+     </script>
+ {% endblock %}
+ 

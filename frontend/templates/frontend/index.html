@@ -1,0 +1,133 @@
+{% extends 'frontend/layout.html' %}
+
+{% block content %}
+    <!-- Showcase -->
+     <section class="bg-dark text-light p-5 text-center text-sm-start">
+        <div class=container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1> Become Fluent in <span class="text-warning"> Amharic</span> </h1>
+                    <p>Teaching the foundation of Amharic in an Engaging and Fun way!!!</p>
+					  <a href="{% url 'pronoun' %}" class="btn btn-primary btn-lg"> Start Course Now</a>
+
+                </div>
+                <img class="img-fluid w-50 d-none d-sm-block"   src="" alt="" />
+            </div>
+        </div>
+     </section>
+
+     <!-- Newsletter -->
+     <section class="bg-warning text-light p-5">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h3 class="mb-3 mb-md-0"> </h3>
+
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="">
+                    <button class="btn btn-dark btn-lg" type="button"></button>
+                  </div>
+                  
+            </div>
+        </div>
+
+     </section>
+
+     <!-- Boxes -->
+     <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">		
+			<!--box1-->
+                <div class="col-md mb-3">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-laptop"></i>
+                            </div>
+                            
+                          <h3 class="card-title mb-3"> Pronouns </h5>
+                          <p class="card-text">Basic pronouns, with images, phonics <br>and the respective alphabet</p>
+                          <a href="/pronoun" class="btn btn-primary"> Learn Now</a>
+                        </div>
+                      </div>
+                </div>
+			<!--box2-->
+                <div class="col-md mb-3">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-person-square"></i>
+                            </div>
+                            
+                          <h3 class="card-title mb-3"> Family </h5>
+                          <p class="card-text">Immediate family members, with images, phonics and the respective alphabet</p>
+                          <a href="/family" class="btn btn-dark"> Learn Now</a>
+                        </div>
+                    </div>
+                </div>
+				<!--box1-->
+
+                <div class="col-md mb-3">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-people"></i>
+                            </div>
+                            
+                          <h3 class="card-title mb-3"> Introductions </h5>
+                          <p class="card-text">Introduction, based on previous lessons (pronouns and family) </p>
+                          <a href="/intro" class="btn btn-primary"> Learn Now</a>
+                        </div>
+                      </div>
+                </div>
+
+            </div>
+            <div class="row text-center g-4">
+                <div class="col-md mb-3 ">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-laptop"></i>
+                            </div>
+                            
+                          <h3 class="card-title mb-3"> Numbers</h5>
+                          <p class="card-text">Number 1-10, with images, phonics <br>and the respective alphabet</p>
+                          <a href="/num" class="btn btn-primary"> Learn More</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md mb-3">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-person-square"></i>
+                            </div>
+                            
+                          <h3 class="card-title mb-3"> WH Questions</h5>
+                          <p class="card-text">Learn and practice asking and answering questions </p>
+                          <a href="/wh" class="btn btn-dark"> Learn Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md mb-3">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-people"></i>
+                            </div>
+                            
+                          <h3 class="card-title mb-3"> Days of The Week</h5>
+                          <p class="card-text">list of the 7 Days of the week. Including alphabet</p>
+                          <a href="/day" class="btn btn-primary"> Learn Now</a>
+                        </div>
+                      </div>
+                </div>
+
+            </div>
+        </div>
+     </section>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </div>
+
+  {% endblock %}

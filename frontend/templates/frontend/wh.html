@@ -1,0 +1,55 @@
+{% extends 'frontend/layout.html' %}
+{% block content %}
+
+     <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">		
+			<!--I-->
+                <div class="col-1">
+                  
+                </div>
+
+                <div class="col-9">
+                  <div class="card" >
+                    <img class="card-img-top" src={{wh.image.url}} alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                          {{wh.name}}
+                      </h5>
+                      <p class="card-text"><pre>{{ wh.description }}</pre></p>
+                      <a href="/wh/why" class="btn btn-primary">Why</a>
+                      <a href="whose" class="btn btn-primary">Whose</a>
+                      <a href="who" class="btn btn-primary">Who</a>
+                      <a href="which" class="btn  btn-primary">Which</a>
+                      <a href="where" class="btn btn-primary">Where</a>
+                      <a href="when" class="btn btn-primary">When</a>
+                      <a href="what" class="btn btn-primary">What</a>
+                      <a href="howmany" class="btn btn-primary">Howmany</a>
+                      <a href="how" class="btn btn-primary">How</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-1">
+                </div>
+	
+
+            </div>
+
+            <div class="row text-center g-4">		
+                <div class="col-3">
+                </div>
+                <div class="col-6">
+                  <a href="../" class="btn  btn-warning">Finish</a>  
+
+                </div>
+                <div class="col-3">
+                </div>
+        </div>
+     </section>
+     <script>
+            
+            
+     </script>
+ {% endblock %}
+ 

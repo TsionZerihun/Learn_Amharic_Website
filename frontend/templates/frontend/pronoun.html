@@ -1,0 +1,54 @@
+{% extends 'frontend/layout.html' %}
+{% block content %}
+
+     <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">		
+			<!--I-->
+                <div class="col-3">
+                  
+                </div>
+
+                <div class="col-6">
+                  <div class="card" >
+                    <img class="card-img-top" src={{pros.image.url}} alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                          {{pros.name}}
+                      </h5>
+                      <p class="card-text"><pre>{{ pros.description }}</pre></p>
+                      <a href="/pronoun/I" class="btn btn-primary">I</a>
+                      <a href="He" class="btn btn-primary">He</a>
+                      <a href="She" class="btn btn-primary">SHE</a>
+                      <a href="We" class="btn  btn-primary">WE</a>
+                      <a href="They" class="btn btn-primary">THEY</a>
+                      <a href="You(F)" class="btn btn-primary">You(F)</a>
+                      <a href="You(M)" class="btn btn-primary">You(M)</a>
+                      <a href="You(G)" class="btn btn-primary">You(G)</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-3">
+                </div>
+	
+
+            </div>
+
+            <div class="row text-center g-4">		
+                <div class="col-3">
+                </div>
+                <div class="col-6">
+                  <a href="../" class="btn  btn-warning">Finish</a>  
+
+                </div>
+                <div class="col-3">
+                </div>
+        </div>
+     </section>
+     <script>
+            
+            
+     </script>
+ {% endblock %}
+ 
