@@ -176,7 +176,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Tsion Zeleke - tsi-on.tech - tsion902@gmail.com
+Tsion Zeleke - http://tsi-on.tech/ - tsion902@gmail.com
 
 Project Link: [https://github.com/TsionZerihun/Learn_Amharic_Website](https://github.com/your_username/repo_name)
 
