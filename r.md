@@ -36,10 +36,6 @@
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
@@ -57,7 +53,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Our website is a platform for users to learn Amharic. It includes
+Learn Amharic is a website is a platform for users to learn Amharic. It includes
 * Pronouns
 * Numbers
 * Introduction
@@ -89,8 +85,10 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+1. Clone/pull/download this repository
+2. Create a virtualenv with `python -m venv env`
+3. Activate virtual environment `source env/bin/activate`
+4. Install dependencies with `pip install -r requirements.txt`
 
 ### Prerequisites
 
