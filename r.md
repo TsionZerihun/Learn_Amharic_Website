@@ -123,7 +123,8 @@ python manage.py runserver`
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@website](http://tsi-on.tech) - tsion902@gmail.com
+Your Name - [@website](http://tsi-on.tech) - 
+Email - tsion902@gmail.com
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
