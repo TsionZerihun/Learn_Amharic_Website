@@ -72,9 +72,6 @@ Currently getting access to resources that teach Amharic is very rare and there 
 
 
 ### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgments section. Here are a few examples.
-
 * [![Django][Django]][Django-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
