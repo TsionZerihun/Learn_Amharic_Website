@@ -131,14 +131,6 @@ Project Link: [https://github.com/TsionZerihun/Learn_Amharic_Website](https://gi
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-<!-- ACKNOWLEDGMENTS -->
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [issues-url]: https://github.com/TsionZerihun/Learn_Amharic_Website
