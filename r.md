@@ -67,7 +67,7 @@ Our website is a platform for users to learn Amharic. It includes
 Currently getting access to resources that teach Amharic is very rare and there aren’t sufficient resources out there hence, we have come up with the idea in order to::
 * Help people all over the world to get quick access to learning the different languages spoken in Ethiopia
 * Enable individuals to learn a new language at their own pace online by accessing our easy-to-use flashcards.
-* Introduce the language and its culture to the outside world :smile:
+* Introduce the language and its culture to the outside world 
 
 
 
@@ -79,16 +79,8 @@ Currently getting access to resources that teach Amharic is very rare and there 
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgments section. Here are a few examples.
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
 * [![Django][Django]][Django-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-* 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
